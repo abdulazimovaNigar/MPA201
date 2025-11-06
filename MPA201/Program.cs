@@ -1,9 +1,15 @@
 ﻿namespace MPA201;
+using MPA201.Service;
 
 internal class Program
 {
+
+
     static void Main(string[] args)
     {
+        BankService bankService = new BankService();
+
+
         Console.WriteLine("Welcome to Car Dealership!");
         Console.WriteLine("1. Car Sale \n2. Rent a Car \n3. Bank \n4. Exit");
 
@@ -22,6 +28,7 @@ internal class Program
 
             case "3":
                 Console.WriteLine("Welcome to BlueBank!");
+                bankService.BankMenu();
                 break;
 
             case "4":
