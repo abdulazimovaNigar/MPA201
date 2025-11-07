@@ -45,7 +45,7 @@ public class CarService
                 goto CarSaleMenu;
 
             case "6":
-                SellCar();
+                SellCar(user);
                 goto CarSaleMenu;
 
             case "0":
@@ -103,7 +103,7 @@ public class CarService
                 goto CarRentMenu;
 
             case "6":
-                RentCar();
+                RentCar(user);
                 goto CarRentMenu;
             case "0":
                 Console.Clear();
@@ -231,14 +231,21 @@ public class CarService
         }
     }
 
-    public void SellCar()
+    public void SellCar(User user)
     {
     SellCar:
         Console.Clear();
 
+        if(user == null) 
+        {
+            Console.WriteLine("You need to log in to sell a car.");
+            Console.ReadKey();
+            return;
+        }
+
         foreach (var car in cars)
         {
-            if(car.PriceForSale != 0) 
+            if(car.PriceForSale != 0 && car.IsSold == false) 
             {
                 car.ShowInfo();
             }
@@ -266,6 +273,7 @@ public class CarService
                 {
                     carToSell.IsSold = true;
                     Console.WriteLine($"Car sold. Price: {carToSell.PriceForSale}");
+                    user.Balance += carToSell.PriceForSale;
                 }
             }               
         }
@@ -281,10 +289,17 @@ public class CarService
         Console.ReadKey();
     }
 
-    public void RentCar()
+    public void RentCar(User user)
     {
     SellCar:
         Console.Clear();
+
+        if (user == null)
+        {s
+            Console.WriteLine("You need to log in to rent a car.");
+            Console.ReadKey();
+            return;
+        }
 
         foreach (var car in cars)
         {
@@ -316,6 +331,7 @@ public class CarService
                 {
                     carToRent.IsRented = true;
                     Console.WriteLine($"Car rented. Price: {carToRent.PriceForRent}");
+                    user.Balance += carToRent.PriceForSale;
                 }
             }
         }
