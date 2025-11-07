@@ -1,6 +1,6 @@
 ﻿namespace MPA201;
 using MPA201.Service;
-
+using MPA201.Entity;
 internal class Program
 {
     static void Main(string[] args)
@@ -8,34 +8,60 @@ internal class Program
         BankService bankService = new BankService();//For Bank methods
         UserService userService = new UserService();//For User DB
         CarService carService = new CarService();//For Car methods
+        User currentUser = null;
+        InitializeCars(carService);
 
-        Console.WriteLine("Welcome to Car Dealership!");
-        Console.WriteLine("1. Car Sale \n2. Rent a Car \n3. Bank \n4. Exit");
-
-        again:
-        Console.Write("Choose what to do: ");
-        string choice = Console.ReadLine();
-        switch (choice)
+    again:
+        Console.WriteLine();
+        Console.Clear();
+        if (currentUser == null) 
+        {
+            Console.WriteLine("Welcome to Car Dealership!  | User is not logged in. To log in, use Bank.");
+        }
+        else 
+        {
+            Console.WriteLine($"Welcome to Car Dealership!  | You are loged in as {currentUser.Email}");
+        }
+            Console.Write(
+                "1. Car Sale" +
+                "\n2. Rent a Car" +
+                "\n3. Bank" +
+                "\n0. Exit" +
+                "\nChoose what to do: ");
+        
+        switch (Console.ReadLine())
         {
             case "1":
-                Console.WriteLine("Welcome to Drivable!");
-                carService.CarSaleMenu(bankService.LoginMenu(userService));
-                break;
+                carService.CarSaleMenu(bankService.LoginMenu(userService, currentUser));
+                goto again;
 
             case "2":
-                Console.WriteLine("Welcome to Cruise Wheels!");
-                carService.CarRentMenu(bankService.LoginMenu(userService));
-                break;
+                carService.CarRentMenu(bankService.LoginMenu(userService, currentUser));
+                goto again;
 
             case "3":
-                Console.WriteLine("Welcome to BlueBank!");
-                bankService.BankMenu(bankService.LoginMenu(userService));
-                break;
+                currentUser = bankService.LoginMenu(userService, currentUser);
+                bankService.BankMenu(currentUser);
+                goto again;
 
-            case "4":
+            case "0":
+                Console.Clear();
                 return;
 
             default: Console.WriteLine("Something went wrong. Please, try again."); goto again;
         }
+    }
+
+    public static void InitializeCars(CarService carService)
+    {
+
+        carService.cars.Add(new Car("Toyota", "Camry", "White", 2020, 20000, 0));
+        carService.cars.Add(new Car("Honda", "Civic", "Black", 2019, 18000, 0));
+        carService.cars.Add(new Car("Ford", "Focus", "Blue", 2021, 22000, 0));
+
+
+        carService.cars.Add(new Car("BMW", "X5", "Grey", 2022, 0, 150));
+        carService.cars.Add(new Car("Audi", "A4", "Red", 2021, 0, 120));
+        carService.cars.Add(new Car("Mercedes", "C-Class", "Silver", 2020, 0, 130));
     }
 }

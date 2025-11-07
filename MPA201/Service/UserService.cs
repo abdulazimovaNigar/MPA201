@@ -11,9 +11,14 @@ namespace MPA201.Service
         repeat:
             Console.Clear();
             string email, password;
-
+            Console.WriteLine("Input 0 to exit.");
             Console.Write("Email:"); email = Console.ReadLine();
             Console.Write("Password:"); password = Console.ReadLine();
+
+            if (email == "0" || password == "0")
+            {
+                return null;
+            }
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
@@ -45,8 +50,14 @@ namespace MPA201.Service
         repeat:
             Console.Clear();
             string email, password;
+            Console.WriteLine("Input 0 to exit.");
             Console.Write("Email:"); email = Console.ReadLine();
             Console.Write("Password:"); password = Console.ReadLine();
+
+            if(email == "0" || password == "0") 
+            {
+                return null;
+            }
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
@@ -60,11 +71,11 @@ namespace MPA201.Service
 
             if (user == null)
             {
-                Console.WriteLine("Invalid email or password!\nTry agan!");
+                Console.WriteLine("Invalid email or password!\nTry again!");
                 Console.ReadKey();
                 goto repeat;
             }
-
+            Console.Clear();
             Console.WriteLine($"Welcome back, {user.Email}!");
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

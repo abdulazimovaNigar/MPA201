@@ -3,23 +3,23 @@
 public class Car
 {
     private static int defaultId = 1;
-    public int Id;
-    public string Brand;
-    public string Model;
-    public string Color;
-    public int Year;
-    public double PriceForSale;
-    public double PriceForRent;
-    public bool IsSold;
-    public bool IsRented;
+    public int Id { get; set; }
+    public string Brand { get; set; }
+    public string Model { get; set; }
+    public string Color { get; set; }
+    public int Year { get; set; }
+    public decimal PriceForSale { get; set; }
+    public decimal PriceForRent { get; set; }
+    public bool IsSold { get; set; }
+    public bool IsRented { get; set; }
 
     public Car(
-        string brand, 
-        string model, 
-        string color, 
-        int year, 
-        double priceForSale,
-        double priceForRent)
+        string brand,
+        string model,
+        string color,
+        int year,
+        decimal priceForSale,
+        decimal priceForRent)
     {
         Id = defaultId++;
         Brand = brand;

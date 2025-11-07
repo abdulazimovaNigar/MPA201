@@ -3,13 +3,12 @@ using MPA201.Entity;
 
 public class CarService
 {
-    CarService carService = new CarService();
-    List<Car> cars = new List<Car>();
+    public List<Car> cars = new List<Car>();
     public void CarSaleMenu(User user)
     {
     CarSaleMenu:
         Console.WriteLine(
-            "\nCar Sale" +
+            "Car Sale" +
             "\n1. Add a car" +
             "\n2. View cars" +
             "\n3. Delete a car" +
@@ -22,30 +21,30 @@ public class CarService
         switch (Console.ReadLine())
         {
             case "1":
-                carService.AddCar();
+                AddCar();
                 goto CarSaleMenu;
 
             case "2":
-                carService.ShowAllCars();
+                ShowAllCars();
                 Console.WriteLine("Press any key to continue");
                 Console.ReadKey();
                 Console.Clear();
                 goto CarSaleMenu;
 
             case "3":
-                carService.DeleteCar();
+                DeleteCar();
                 goto CarSaleMenu;
 
             case "4":
-                carService.FilterCar();
+                FilterCar();
                 goto CarSaleMenu;
 
             case "5":
-                carService.SortPrice();
+                SortPrice();
                 goto CarSaleMenu;
 
             case "6":
-                carService.SellCar();
+                SellCar();
                 goto CarSaleMenu;
 
             case "0":
@@ -67,6 +66,7 @@ public class CarService
     CarRentMenu:
         Console.Clear();
         Console.WriteLine(
+            "Car Rent" +
             "\n1. Add car" +
             "\n2. Explore cars" +
             "\n3. Remove car" +
@@ -79,18 +79,18 @@ public class CarService
         switch (Console.ReadLine())
         {
             case "1":
-                carService.AddCar();
+                AddCar();
                 goto CarRentMenu;
 
             case "2":
-                carService.ShowAllCars();
+                ShowAllCars();
                 Console.WriteLine("Press any key to continue");
                 Console.ReadKey();
                 Console.Clear();
                 goto CarRentMenu;
 
             case "3":
-                carService.DeleteCar();
+                DeleteCar();
                 goto CarRentMenu;
 
             case "4":
@@ -101,11 +101,11 @@ public class CarService
                 goto CarRentMenu;
 
             case "5":
-                carService.SortPrice();
+                SortPrice();
                 goto CarRentMenu;
 
             case "6":
-                carService.RentCar();
+                RentCar();
                 goto CarRentMenu;
             case "0":
                 Console.Clear();
@@ -133,9 +133,9 @@ public class CarService
         Console.Write("Year:");
         int year = Convert.ToInt32(Console.ReadLine());
         Console.Write("Price for sale:");
-        double priceForSale = Convert.ToDouble(Console.ReadLine());
+        decimal priceForSale = Convert.ToDecimal(Console.ReadLine());
         Console.Write("Price for rent:");
-        double priceForRent = Convert.ToDouble(Console.ReadLine());
+        decimal priceForRent = Convert.ToDecimal(Console.ReadLine());
 
         cars.Add(new Car(brand, model, color, year, priceForSale, priceForRent));
 
@@ -156,7 +156,7 @@ public class CarService
     {
     DeleteCar:
         Console.Clear();
-        carService.ShowAllCars();
+        ShowAllCars();
 
         Console.WriteLine("Enter the number of the car to delete:");
 
@@ -237,7 +237,7 @@ public class CarService
     {
     SellCar:
         Console.Clear();
-        carService.ShowAllCars();
+        ShowAllCars();
         Console.WriteLine("Enter the ID of the car to sell:");
 
         if (int.TryParse(Console.ReadLine(), out int id))
@@ -279,7 +279,7 @@ public class CarService
     {
     SellCar:
         Console.Clear();
-        carService.ShowAllCars();
+        ShowAllCars();
         Console.WriteLine("Enter the ID of the car to rent:");
 
         if (int.TryParse(Console.ReadLine(), out int id))

@@ -9,7 +9,7 @@ public class User
 
     public string Password { get; set; }
 
-    public double Balance { get; set; } = 100;
+    public decimal Balance { get; set; } = 0;
 
     public List<Operation> Operations { get; set; } = new List<Operation>();
     public List<Car> Cars { get; set; } = new List<Car>();

@@ -3,8 +3,11 @@ using MPA201.Entity;
 
 public class BankService
 {
-    public User LoginMenu(UserService userService) 
+    public User LoginMenu(UserService userService, User user) 
     {
+        if (user != null)
+            return user;
+
     LoginMenu:
         Console.Clear();
         Console.WriteLine(
@@ -37,6 +40,11 @@ public class BankService
 
     public void BankMenu(User user)
     {
+        if (user == null) 
+        {
+            Console.Clear();
+            return;
+        }
     BankMenu:
         Console.Clear();
         Console.WriteLine(
