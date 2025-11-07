@@ -274,6 +274,7 @@ public class CarService
                     carToSell.IsSold = true;
                     Console.WriteLine($"Car sold. Price: {carToSell.PriceForSale}");
                     user.Balance += carToSell.PriceForSale;
+                    user.Operations.Add(new Operation(false, carToSell.PriceForSale, carToSell));
                 }
             }               
         }
@@ -295,7 +296,7 @@ public class CarService
         Console.Clear();
 
         if (user == null)
-        {s
+        {
             Console.WriteLine("You need to log in to rent a car.");
             Console.ReadKey();
             return;
@@ -331,7 +332,8 @@ public class CarService
                 {
                     carToRent.IsRented = true;
                     Console.WriteLine($"Car rented. Price: {carToRent.PriceForRent}");
-                    user.Balance += carToRent.PriceForSale;
+                    user.Balance += carToRent.PriceForRent;
+                    user.Operations.Add(new Operation(false, carToRent.PriceForRent, carToRent));
                 }
             }
         }

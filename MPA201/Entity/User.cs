@@ -33,7 +33,11 @@ public class User
     public void ShowOperations()
     {
         Console.Clear();
-        Console.WriteLine("Operations");
+        Console.WriteLine("Operations:");
+        foreach (var operaion in Operations)
+        {
+            operaion.ShowInfo();
+        }
         Console.ReadKey();
     }
 }
