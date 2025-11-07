@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\MPA201.csproj": {}
+    "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\MPA201.csproj": {
+    "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\MPA201.csproj",
+        "projectUniqueName": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj",
         "projectName": "MPA201",
-        "projectPath": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\MPA201.csproj",
-        "packagesPath": "C:\\Users\\OnOff-09092023\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\obj\\",
+        "projectPath": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\OnOff-09092023\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

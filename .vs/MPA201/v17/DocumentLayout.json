@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\OnOff-09092023\\MPA201\\",
+  "WorkspaceRootPath": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|c:\\users\\onoff-09092023\\mpa201\\mpa201\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|c:\\users\\onoff-09092023\\mpa201\\mpa201\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|c:\\users\\onoff-09092023\\mpa201\\mpa201\\entity\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\entity\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|c:\\users\\onoff-09092023\\mpa201\\mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|c:\\users\\onoff-09092023\\mpa201\\mpa201\\service\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201-main\\mpa201\\service\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201-main\\mpa201\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +18,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BankService.cs",
-              "DocumentMoniker": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Service\\BankService.cs",
-              "RelativeDocumentMoniker": "MPA201\\Service\\BankService.cs",
-              "ToolTip": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Service\\BankService.cs",
-              "RelativeToolTip": "MPA201\\Service\\BankService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:35:50.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "MPA201\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Service\\UserService.cs",
-              "RelativeToolTip": "MPA201\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:35:26.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Operation.cs",
-              "DocumentMoniker": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Entity\\Operation.cs",
-              "RelativeDocumentMoniker": "MPA201\\Entity\\Operation.cs",
-              "ToolTip": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Entity\\Operation.cs",
-              "RelativeToolTip": "MPA201\\Entity\\Operation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:35:03.458Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "MPA201\\Entity\\User.cs",
-              "ToolTip": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Entity\\User.cs",
-              "RelativeToolTip": "MPA201\\Entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201-main\\MPA201\\Program.cs",
+              "RelativeDocumentMoniker": "MPA201\\Program.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201-main\\MPA201\\Program.cs",
+              "RelativeToolTip": "MPA201\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T20:34:25.512Z",
+              "WhenOpened": "2025-11-06T22:52:07.385Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Program.cs",
-              "RelativeDocumentMoniker": "MPA201\\Program.cs",
-              "ToolTip": "C:\\Users\\OnOff-09092023\\MPA201\\MPA201\\Program.cs",
-              "RelativeToolTip": "MPA201\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "BankService.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201-main\\MPA201\\Service\\BankService.cs",
+              "RelativeDocumentMoniker": "MPA201\\Service\\BankService.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201-main\\MPA201\\Service\\BankService.cs",
+              "RelativeToolTip": "MPA201\\Service\\BankService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:26:39.601Z",
+              "WhenOpened": "2025-11-07T05:17:41.415Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

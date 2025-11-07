@@ -6,19 +6,27 @@ namespace MPA201.Service
     {
         private List<User> users = new List<User>();
 
-        public void Register()
+        public User Register()
         {
+        repeat:
             Console.Clear();
             string email, password;
 
             Console.Write("Email:"); email = Console.ReadLine();
             Console.Write("Password:"); password = Console.ReadLine();
 
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                Console.WriteLine("Email or password cannot be empty!");
+                Console.ReadKey();
+                goto repeat;
+            }
+
             if (users.Any(user => user.Email == email))
             {
-                Console.WriteLine("User with this email already exists!");
+                Console.WriteLine("User with this email already exists!\nTry again!");
                 Console.ReadKey();
-                return;
+                goto repeat;
             }
 
             User user = new User(email, password);
@@ -29,23 +37,32 @@ namespace MPA201.Service
                 "\nPress any key to Continue");
             Console.ReadKey();
             Console.Clear();
+            return user;
         }
 
         public User LogIn()
         {
+        repeat:
             Console.Clear();
             string email, password;
             Console.Write("Email:"); email = Console.ReadLine();
             Console.Write("Password:"); password = Console.ReadLine();
 
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                Console.WriteLine("Email or password cannot be empty!");
+                Console.ReadKey();
+                goto repeat;
+            }
+
+
             var user = users.FirstOrDefault(u => u.Email == email && u.Password == password);
 
             if (user == null)
             {
-                Console.WriteLine("Invalid email or password!");
-                Console.WriteLine("Invalid email or password!");
+                Console.WriteLine("Invalid email or password!\nTry agan!");
                 Console.ReadKey();
-                return null;
+                goto repeat;
             }
 
             Console.WriteLine($"Welcome back, {user.Email}!");

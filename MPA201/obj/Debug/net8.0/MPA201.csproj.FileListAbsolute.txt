@@ -28,3 +28,17 @@ C:\Users\OnOff-09092023\MPA201\MPA201\obj\Debug\net8.0\refint\MPA201.dll
 C:\Users\OnOff-09092023\MPA201\MPA201\obj\Debug\net8.0\MPA201.pdb
 C:\Users\OnOff-09092023\MPA201\MPA201\obj\Debug\net8.0\MPA201.genruntimeconfig.cache
 C:\Users\OnOff-09092023\MPA201\MPA201\obj\Debug\net8.0\ref\MPA201.dll
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.AssemblyInfoInputs.cache
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.AssemblyInfo.cs
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.csproj.CoreCompileInputs.cache
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.dll
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\refint\MPA201.dll
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.pdb
+D:\Программы\C#\Code\MPA201-main\MPA201\bin\Debug\net8.0\MPA201.exe
+D:\Программы\C#\Code\MPA201-main\MPA201\bin\Debug\net8.0\MPA201.deps.json
+D:\Программы\C#\Code\MPA201-main\MPA201\bin\Debug\net8.0\MPA201.runtimeconfig.json
+D:\Программы\C#\Code\MPA201-main\MPA201\bin\Debug\net8.0\MPA201.dll
+D:\Программы\C#\Code\MPA201-main\MPA201\bin\Debug\net8.0\MPA201.pdb
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\MPA201.genruntimeconfig.cache
+D:\Программы\C#\Code\MPA201-main\MPA201\obj\Debug\net8.0\ref\MPA201.dll
