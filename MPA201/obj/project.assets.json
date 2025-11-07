@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj",
+      "projectUniqueName": "D:\\Программы\\C#\\Code\\MPA201\\MPA201\\MPA201.csproj",
       "projectName": "MPA201",
-      "projectPath": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\MPA201.csproj",
+      "projectPath": "D:\\Программы\\C#\\Code\\MPA201\\MPA201\\MPA201.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Программы\\C#\\Code\\MPA201-main\\MPA201\\obj\\",
+      "outputPath": "D:\\Программы\\C#\\Code\\MPA201\\MPA201\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
