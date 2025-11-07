@@ -32,11 +32,11 @@ internal class Program
         switch (Console.ReadLine())
         {
             case "1":
-                carService.CarSaleMenu(bankService.LoginMenu(userService, currentUser));
+                carService.CarSaleMenu(currentUser);
                 goto again;
 
             case "2":
-                carService.CarRentMenu(bankService.LoginMenu(userService, currentUser));
+                carService.CarRentMenu(currentUser);
                 goto again;
 
             case "3":

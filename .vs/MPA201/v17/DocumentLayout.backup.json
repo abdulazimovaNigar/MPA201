@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\entity\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\entity\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\service\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\bankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|d:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\c#\\code\\mpa201\\mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86BDE878-6353-4A7A-BE23-D920B2406098}|MPA201\\MPA201.csproj|solutionrelative:mpa201\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +46,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Entity\\Car.cs",
+              "RelativeDocumentMoniker": "MPA201\\Entity\\Car.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Entity\\Car.cs",
+              "RelativeToolTip": "MPA201\\Entity\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T06:45:56.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CarService.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Service\\CarService.cs",
               "RelativeDocumentMoniker": "MPA201\\Service\\CarService.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Service\\CarService.cs",
               "RelativeToolTip": "MPA201\\Service\\CarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T06:16:39.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T06:16:39.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "MPA201\\Service\\UserService.cs",
@@ -63,12 +78,11 @@
               "RelativeToolTip": "MPA201\\Service\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T06:07:30.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T06:07:30.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BankService.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Service\\BankService.cs",
               "RelativeDocumentMoniker": "MPA201\\Service\\BankService.cs",
@@ -76,8 +90,7 @@
               "RelativeToolTip": "MPA201\\Service\\BankService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T06:05:05.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T06:05:05.503Z"
             },
             {
               "$type": "Document",
@@ -87,7 +100,7 @@
               "RelativeDocumentMoniker": "MPA201\\Program.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B\\C#\\Code\\MPA201\\MPA201\\Program.cs",
               "RelativeToolTip": "MPA201\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T06:00:30.251Z",
               "EditorCaption": ""

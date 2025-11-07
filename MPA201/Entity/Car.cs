@@ -32,5 +32,5 @@ public class Car
         IsRented = false;
     }
 
-    public void ShowInfo() => Console.WriteLine($"{Id}) Brand: {Brand} Model: {Model} Color: {Color} Year: {Year} Price for sale: {PriceForSale} Price for rent: {PriceForRent}");
+    public void ShowInfo() => Console.WriteLine($"{Id}) Brand: {Brand}\nModel: {Model}\nColor: {Color}\nYear: {Year}\nPrice for sale: {PriceForSale}\nPrice for rent: {PriceForRent}\n");
 }

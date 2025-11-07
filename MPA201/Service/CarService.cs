@@ -7,6 +7,7 @@ public class CarService
     public void CarSaleMenu(User user)
     {
     CarSaleMenu:
+        Console.Clear();
         Console.WriteLine(
             "Car Sale" +
             "\n1. Add a car" +
@@ -16,7 +17,7 @@ public class CarService
             "\n5. Sort cars" +
             "\n6. Sell a car" +
             "\n0. Back" +
-            "\nMake your choice: ");
+            "\nChoose wanted option: ");
 
         switch (Console.ReadLine())
         {
@@ -68,12 +69,12 @@ public class CarService
         Console.WriteLine(
             "Car Rent" +
             "\n1. Add car" +
-            "\n2. Explore cars" +
-            "\n3. Remove car" +
-            "\n4. Filter cars" +
+            "\n2. View cars" +
+            "\n3. Delete a car" +
+            "\n4. Filter cars by brand" +
             "\n5. Sort cars" +
             "\n6. Rent a car" +
-            "\n0. Back | (MainMenu)" +
+            "\n0. Back" +
             "\nChoose wanted option: ");
 
         switch (Console.ReadLine())
@@ -94,10 +95,7 @@ public class CarService
                 goto CarRentMenu;
 
             case "4":
-                /*List<Car> filtredCars = new List<Car>();
-                filtredCars = OwnedCars;
-                filtredCars.RemoveAll(car => car.GetStatus() == "Rented");*/
-                // filtredCars.Функция вывода списка машин
+                FilterCar();
                 goto CarRentMenu;
 
             case "5":
@@ -237,7 +235,15 @@ public class CarService
     {
     SellCar:
         Console.Clear();
-        ShowAllCars();
+
+        foreach (var car in cars)
+        {
+            if(car.PriceForSale != 0) 
+            {
+                car.ShowInfo();
+            }
+        }
+        
         Console.WriteLine("Enter the ID of the car to sell:");
 
         if (int.TryParse(Console.ReadLine(), out int id))
@@ -279,7 +285,15 @@ public class CarService
     {
     SellCar:
         Console.Clear();
-        ShowAllCars();
+
+        foreach (var car in cars)
+        {
+            if (car.PriceForRent != 0)
+            {
+                car.ShowInfo();
+            }
+        }
+
         Console.WriteLine("Enter the ID of the car to rent:");
 
         if (int.TryParse(Console.ReadLine(), out int id))
