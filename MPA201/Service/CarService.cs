@@ -295,7 +295,7 @@ public class CarService
         Console.Clear();
 
         if (user == null)
-        {s
+        {
             Console.WriteLine("You need to log in to rent a car.");
             Console.ReadKey();
             return;
